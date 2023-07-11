@@ -1,0 +1,25 @@
+1.mkdir galaxy-far-far-away && touch princess_leia.txt storm_trooper.txt darth_vader.txt
+2.mkdir tatooine  && touch luke.txt ben_kenobi.txt
+3.cd tatooine mkdir millenium_falcon && touch  han_solo.txt chewbaca.txt
+4.mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/tatooine/ben_kenobi.txt ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/tatooine/obi_wan.txt
+6.mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/tatooine/luke.txt obi_wan.txt ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon/
+7.mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon/ ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/
+8.mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/millenium_falcon/ ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/death_star/
+9.mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/death_star/princess_leia.txt ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon/
+10.cd death_star/millenium_falcon/ && rm obi_wan.txt
+11.mkdir yavin_4
+12.mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/death_star/ ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/
+13.mkdir x_wing
+14. mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon/princess_leia.txt ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/
+ mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon/luke.txt ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/x_wing/
+15. mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon
+ x_wing/ ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/
+16. mkdir  tie_fighter_1  tie_fighter_2  tie_fighter_3
+17. mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/death_star/darth_vader.txt ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/death_star/tie_fighter_1
+18.cp storm_trooper.txt ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/death_star/tie_fighter_2 cp storm_trooper.txt ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/death_star/tie_fighter_3
+19. mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/death_star/tie_fighter_1 tie_fighter_2 tie_fighter_3 ~/Desktop/Perscholas/MERN/Mod1/Week
+2/git-github-and-terminal/galaxy-far-far-away/
+20.rm -r ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/tie_fighter_2 tie_fighter_3
+21.cd x_wing touch the_force.txt
+22.rm -r ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/death_star
+23.mv ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/x_wing millenium_falcon/ ~/Desktop/Perscholas/MERN/Mod1/Week2/git-github-and-terminal/galaxy-far-far-away/yavin_4/
